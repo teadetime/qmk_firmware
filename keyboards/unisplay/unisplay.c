@@ -1,5 +1,4 @@
-/*
- * Copyright 2022 Charly Delay <charly@codesink.dev> (@0xcharly)
+/* Copyright 2020 teadetime
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -15,24 +14,4 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#pragma once
-
-/* Key matrix configuration. */
-#define MATRIX_ROW_PINS \
-    { F7, C6, D4, B5 }
-#define MATRIX_COL_PINS \
-    { F6, F5, B6, D7, E6, B4 }
-
-/* Handedness. */
-//#define MASTER_RIGHT
-
-/* serial.c configuration (for split keyboard). */
-#define SOFT_SERIAL_PIN D2
-
-#define SPLIT_USB_DETECT
-#define SPLIT_USB_TIMEOUT 2500
-#define EE_HANDS
-// https://www.reddit.com/r/olkb/comments/zgb9wk/arduino_pro_micro_and_qmk_with_serial_not_working/
-
-/* RGB settings. */
-#define RGB_DI_PIN D3
+#include "unisplay.h"

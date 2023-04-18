@@ -226,3 +226,13 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     return true;
 }
 #endif
+
+// I like cyan
+//#ifdef RGBLIGHT_ENABLE
+//extern rgblight_config_t rgblight_config;
+//void keyboard_post_init_user(void) {
+//  rgblight_config.hue    = 128;
+//  rgblight_config.sat    = 255;
+//  rgblight_config.val    = 255;
+//}
+//#endif
