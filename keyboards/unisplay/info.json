@@ -1,12 +1,18 @@
 {
-    "keyboard_name": "reviung33",
-    "manufacturer": "gtips",
+    "keyboard_name": "unisplay",
+    "manufacturer": "teadetime",
     "url": "",
-    "maintainer": "gtips",
+    "maintainer": "teadetime",
     "usb": {
         "vid": "0xFEED",
         "pid": "0x516D",
         "device_version": "0.0.1"
+    },
+    "encoder": {
+        "rotary": [
+            {"pin_a": "B3", "pin_b": "B1"},
+            {"pin_a": "E6", "pin_b": "D7"}
+        ]
     },
     "layout_aliases": {
         "LAYOUT_reviung33": "LAYOUT"
@@ -47,9 +53,14 @@
                 {"x":8, "y":2},
                 {"x":9, "y":2},
               
-                {"x":0, "y":3},
-                {"x":2, "y":3, "w":6},
-                {"x":9, "y":3}
+                {"x":1, "y":3},
+                {"x":2, "y":3},
+                {"x":3, "y":3},
+                {"x":4, "y":3},
+                {"x":5, "y":3},
+                {"x":6, "y":3},
+                {"x":7, "y":3},
+                {"x":8, "y":3}
             ]
         }
     }
