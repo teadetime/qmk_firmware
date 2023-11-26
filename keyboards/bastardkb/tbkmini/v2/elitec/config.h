@@ -20,8 +20,15 @@
 /* Key matrix configuration. */
 #define MATRIX_ROW_PINS \
     { F7, C6, D4, B5 }
+
+// Left hand column definitions
 #define MATRIX_COL_PINS \
-    { F6, F5, B6, D7, E6, B4 }
+    { F6, F5, B6, D7, E6, B2 }
+
+/*Right hand patch cable on col 2*/
+/*#define MATRIX_COL_PINS \
+     { F6, B2, B6, D7, E6, B4 }*/
+
 
 /* Handedness. */
 //#define MASTER_RIGHT
@@ -30,7 +37,7 @@
 #define SOFT_SERIAL_PIN D2
 
 #define SPLIT_USB_DETECT
-#define SPLIT_USB_TIMEOUT 2500
+#define SPLIT_USB_TIMEOUT 1000
 #define EE_HANDS
 // https://www.reddit.com/r/olkb/comments/zgb9wk/arduino_pro_micro_and_qmk_with_serial_not_working/
 

@@ -10,8 +10,8 @@
     },
     "encoder": {
         "rotary": [
-            {"pin_a": "B3", "pin_b": "B1"},
-            {"pin_a": "E6", "pin_b": "D7"}
+            {"pin_a": "B1", "pin_b": "B3"},
+            {"pin_a": "D7", "pin_b": "E6"}
         ]
     },
     "layout_aliases": {
